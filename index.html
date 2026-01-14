@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MindCare – Mental Health</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <h2 class="logo">MindCare 🌱</h2>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#mood">Mood Tracker</a></li>
+      <li><a href="#percentage">Mood %</a></li>
+      <li><a href="#videos">Videos</a></li>
+      <li><a href="#articles">Articles</a></li>
+    </ul>
+  </nav>
+
+  <!-- HOME -->
+  <section id="home" class="section home">
+    <h1>Your Mental Health Matters 🤍</h1>
+    <p>
+      Track your mood, relax your mind, and explore helpful
+      resources for emotional well-being.
+    </p>
+  </section>
+
+  <!-- MOOD TRACKER -->
+  <section id="mood" class="section mood">
+    <h2>Mood Tracker 🧠</h2>
+
+    <div class="mood-box">
+      <label>How stressed do you feel today? (0–10)</label>
+      <input type="range" min="0" max="10">
+      <span>0 = No stress, 10 = Extreme stress</span>
+    </div>
+
+    <div class="mood-box">
+      <label>How energetic do you feel today? (0–10)</label>
+      <input type="range" min="0" max="10">
+      <span>0 = Very low, 10 = Highly energetic</span>
+    </div>
+
+    <div class="mood-box">
+      <label>How positive is your mood today? (0–10)</label>
+      <input type="range" min="0" max="10">
+      <span>0 = Very negative, 10 = Very positive</span>
+    </div>
+  </section>
+
+  <!-- MOOD PERCENTAGE -->
+  <section id="percentage" class="section percentage">
+    <h2>Your Mood Percentage 📊</h2>
+
+    <div class="percentage-box">
+      <p>
+        Your mood percentage will be calculated
+        based on your mood ratings (0–10).
+      </p>
+    </div>
+  </section>
+
+  <!-- VIDEOS -->
+  <section id="videos" class="section videos">
+    <h2>Stress Relief Videos 🎧</h2>
+
+    <div class="card">
+      <h3>Guided Meditation</h3>
+      <a href="https://www.youtube.com/watch?v=inpok4MKVLM" target="_blank">Watch Now</a>
+    </div>
+
+    <div class="card">
+      <h3>Calming Music</h3>
+      <a href="https://www.youtube.com/watch?v=2OEL4P1Rz04" target="_blank">Listen</a>
+    </div>
+
+    <div class="card">
+      <h3>Anxiety Relief Exercise</h3>
+      <a href="https://www.youtube.com/watch?v=ZToicYcHIOU" target="_blank">Watch</a>
+    </div>
+  </section>
+
+  <!-- ARTICLES -->
+  <section id="articles" class="section articles">
+    <h2>Mental Health Articles 📖</h2>
+
+    <div class="card">
+      <h3>Understanding Anxiety</h3>
+      <p>
+        Anxiety is a normal response to stress.
+        Understanding its causes helps manage it better...
+      </p>
+      <a href="https://www.healthline.com/health/anxiety" target="_blank">Read More</a>
+    </div>
+
+    <div class="card">
+      <h3>How to Reduce Stress</h3>
+      <p>
+        Stress management is important for mental balance
+        and emotional stability...
+      </p>
+      <a href="https://www.helpguide.org/articles/stress/stress-management.htm" target="_blank">
+        Read More
+      </a>
+    </div>
+  </section>
+
+  <script src="main.js"></script>
+
+</body>
+</html>
