@@ -34,21 +34,22 @@
 
     <div class="mood-box">
       <label>How stressed do you feel today? (0–10)</label>
-      <input type="range" min="0" max="10">
+      <input type="range" min="0" max="10" id="stress" oninput="calculateMood()">
       <span>0 = No stress, 10 = Extreme stress</span>
     </div>
 
     <div class="mood-box">
       <label>How energetic do you feel today? (0–10)</label>
-      <input type="range" min="0" max="10">
+      <input type="range" min="0" max="10" id="energy" oninput="calculateMood()">
       <span>0 = Very low, 10 = Highly energetic</span>
     </div>
 
     <div class="mood-box">
       <label>How positive is your mood today? (0–10)</label>
-      <input type="range" min="0" max="10">
+      <input type="range" min="0" max="10" id="positive" oninput="calculateMood()">
       <span>0 = Very negative, 10 = Very positive</span>
     </div>
+
   </section>
 
   <!-- MOOD PERCENTAGE -->
@@ -56,12 +57,13 @@
     <h2>Your Mood Percentage 📊</h2>
 
     <div class="percentage-box">
-      <p>
-        Your mood percentage will be calculated
-        based on your mood ratings (0–10).
+      <h3 id="result">😊 0%</h3>
+      <p class="note">
+        This is an estimated mood score based on your inputs.
       </p>
     </div>
   </section>
+
 
   <!-- VIDEOS -->
   <section id="videos" class="section videos">

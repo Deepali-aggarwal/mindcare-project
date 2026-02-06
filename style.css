@@ -12,8 +12,8 @@ body {
 
 /* NAVBAR */
 .navbar {
-  background-color: #2f7f7f;
-  padding: 15px 30px;
+  background-color: #3d8bc7;
+  padding: 30px 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -45,7 +45,7 @@ body {
 }
 
 .home h1 {
-  color: #2f7f7f;
+  color: #3d8bc7;
   margin-bottom: 15px;
 }
 
@@ -83,7 +83,7 @@ body {
 
 .percentage-box h3 {
   font-size: 40px;
-  color: #2f7f7f;
+  color: #3d8bc7;
 }
 
 .note {
@@ -106,12 +106,12 @@ body {
 }
 
 .card h3 {
-  color: #2f7f7f;
+  color: #3d8bc7;
   margin-bottom: 10px;
 }
 
 .card a {
-  color: #2f7f7f;
+  color: #3d8bc7;
   font-weight: bold;
   text-decoration: none;
 }
