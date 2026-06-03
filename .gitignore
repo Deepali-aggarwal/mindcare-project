@@ -1,1 +1,5 @@
 .vercel
+node_modules
+.parcel-cache
+dist
+.tmp
